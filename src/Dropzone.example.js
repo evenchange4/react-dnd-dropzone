@@ -12,7 +12,7 @@ storiesOf('Dropzone', module).add(
     inline: true,
   })(() => (
     <Dropzone
-      onDrop={file => action('onDrop')(file)}
+      onDrop={files => action('onDrop')(files)}
       render={({ canDrop, isOver }) => (
         <div style={{ border: '1px dashed black', height: 200 }}>
           Drop file here!

@@ -54,7 +54,7 @@ export const Dropzone: React.ComponentType<{
 /**
  * For react-storybook addon info
  */
-Dropzone.displayName = 'Dropzone';
+Dropzone.displayName = 'ReactDndDropzone';
 Dropzone.propTypes = {
   onDrop: PropTypes.func.isRequired,
   render: PropTypes.func.isRequired,
