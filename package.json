@@ -1,6 +1,6 @@
 {
   "name": "react-dnd-dropzone",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Dropzone with render props built with react-dnd.",
   "author": "Michael Hsu <evenchange4@gmail.com>",
   "license": "MIT",
