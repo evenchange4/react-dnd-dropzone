@@ -11,7 +11,7 @@
     "clean": "rm -rf lib",
     "prebuild": "npm run clean",
     "build":
-      "NODE_ENV=production babel src --out-dir lib --ignore '**/*.example.js'",
+      "NODE_ENV=production babel src --out-dir lib --ignore '**/*.example.js,**/__tests__/*'",
     "test": "NODE_ENV='test' jest --coverage --runInBand",
     "test:watch": "npm run test -- --watch",
     "start": "start-storybook -p 6006",
@@ -43,7 +43,10 @@
     "@storybook/addon-options": "3.3.11",
     "@storybook/addon-storyshots": "3.3.11",
     "@storybook/react": "3.3.11",
+    "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "8.2.1",
+    "babel-jest": "22.1.0",
+    "babel-plugin-add-module-exports": "0.2.1",
     "babel-preset-react-app": "next",
     "codecov": "3.0.0",
     "enzyme": "3.3.0",
@@ -80,19 +83,6 @@
     "resetMocks": true,
     "resetModules": true
   },
-  "babel": {
-    "presets": [
-      "babel-preset-react-app",
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "browsers": [">1%", "last 4 versions", "Firefox ESR", "not ie < 11"]
-          }
-        }
-      ]
-    ]
-  },
   "prettier": {
     "trailingComma": "all",
     "singleQuote": true
@@ -128,6 +118,13 @@
       "react/require-default-props": 0
     }
   },
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "storybook-static",
+    "lib",
+    "flow-typed"
+  ],
   "keywords": ["react-dnd", "dropzone", "render prop"],
   "bugs": {
     "url": "https://github.com/evenchange4/react-dnd-dropzone/issues",

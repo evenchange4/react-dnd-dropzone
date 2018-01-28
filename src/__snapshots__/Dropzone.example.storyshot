@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Dropzone Basic 1`] = `
+<ReactDndDropzone
+  onDrop={[Function]}
+  render={[Function]}
+>
+  <DropTarget(Target)
+    onDrop={[Function]}
+    render={[Function]}
+  >
+    <Target
+      canDrop={false}
+      connectDropTarget={[Function]}
+      isOver={false}
+      onDrop={[Function]}
+      render={[Function]}
+    >
+      <DragDropContextProvider
+        backend={[Function]}
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "border": "1px dashed black",
+                "height": 200,
+              }
+            }
+          >
+            Drop file here!
+            <pre>
+              {
+  "canDrop": false,
+  "isOver": false
+}
+            </pre>
+          </div>
+        </div>
+      </DragDropContextProvider>
+    </Target>
+  </DropTarget(Target)>
+</ReactDndDropzone>
+`;
