@@ -7,7 +7,7 @@ setAddon(infoAddon);
 setDefaults({ inline: true });
 setOptions({
   name: 'react-dnd-dropzone',
-  url: '',
+  url: 'https://github.com/evenchange4/react-dnd-dropzone',
   sortStoriesByKind: true,
 });
 
