@@ -27,8 +27,6 @@ $ yarn add react-dnd-dropzone
 
 ## Usage
 
-### Single file
-
 ```js
 import Dropzone from 'react-dnd-dropzone';
 
