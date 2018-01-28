@@ -79,7 +79,6 @@
       "!src/**/*.example.js"
     ],
     "testPathIgnorePatterns": ["<rootDir>/node_modules/", "<rootDir>/lib/"],
-    "coverageReporters": ["text"],
     "resetMocks": true,
     "resetModules": true
   },
