@@ -1,5 +1,10 @@
 ## Change Log
 
+### upcoming (2018/01/28 08:48 +00:00)
+
+* [87ecd7d](https://github.com/evenchange4/react-dnd-dropzone/commit/87ecd7d235f6522bf1fec35e3e9d0ebf17f27e41) fix(CI): add coverage report (@evenchange4)
+* [d7a63ae](https://github.com/evenchange4/react-dnd-dropzone/commit/d7a63aefc19aacb0b423c5b788dce679089e6d93) docs(CHANGELOG): release 1.0.0 (@evenchange4)
+
 ### v1.0.0 (2018/01/28 08:37 +00:00)
 
 * [9ad086a](https://github.com/evenchange4/react-dnd-dropzone/commit/9ad086a2c9d851d0a85fd717df58b90ede36bb19) 1.0.0 (@evenchange4)

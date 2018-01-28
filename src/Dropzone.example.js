@@ -8,7 +8,7 @@ import Dropzone from '.';
 storiesOf('Dropzone', module).add(
   'Basic',
   withInfo({
-    text: 'default',
+    text: `API: https://github.com/evenchange4/react-dnd-dropzone#api`,
     inline: true,
   })(() => (
     <Dropzone
