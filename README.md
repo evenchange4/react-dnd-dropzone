@@ -21,7 +21,7 @@
 $ yarn add react-dnd-dropzone
 ```
 
-## Example
+## Demo
 
 * https://react-dnd-dropzone.netlify.com/
 
