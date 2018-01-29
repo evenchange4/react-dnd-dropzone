@@ -21,7 +21,7 @@
 $ yarn add react-dnd-dropzone
 ```
 
-## Example
+## Demo
 
 * https://react-dnd-dropzone.netlify.com/
 
@@ -47,9 +47,11 @@ import Dropzone from 'react-dnd-dropzone';
 type Props = {
   onDrop: (files: Array<Object>, monitor: any) => void,
   render: ({ canDrop: boolean, isOver: boolean }) => React.Element<any>,
-  accepts?: Array<Object>,
+  accepts?: Array<string>,
 };
 ```
+
+* `accepts` value: https://github.com/react-dnd/react-dnd/blob/master/packages/react-dnd-html5-backend/src/NativeTypes.js
 
 ## Development
 
