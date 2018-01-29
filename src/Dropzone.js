@@ -30,7 +30,7 @@ export const Target = ({
 export const Dropzone: React.ComponentType<{
   onDrop: (files: Array<Object>, monitor: any) => void,
   render: ({ canDrop: boolean, isOver: boolean }) => React.Element<any>,
-  accepts?: Array<Object>,
+  accepts?: Array<string>,
 }> = compose(
   DragDropContext(HTML5Backend),
   DropTarget(
