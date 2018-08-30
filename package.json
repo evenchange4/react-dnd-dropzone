@@ -30,7 +30,7 @@
     "prop-types": "^15.6.0",
     "react-dnd": "^2.5.4",
     "react-dnd-html5-backend": "^2.5.4",
-    "recompose": "^0.26.0"
+    "recompose": "^0.30.0"
   },
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.39",
