@@ -67,9 +67,9 @@
     "jest": "22.2.1",
     "lint-staged": "6.1.0",
     "prettier": "1.10.2",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-test-renderer": "16.2.0"
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-test-renderer": "16.6.3"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js",
