@@ -1,16 +1,12 @@
 // @flow
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withInfo } from '@storybook/addon-info';
 import { action } from '@storybook/addon-actions';
 import Dropzone from '.';
 
 storiesOf('Dropzone', module).add(
   'Basic',
-  withInfo({
-    text: `API: https://github.com/evenchange4/react-dnd-dropzone#api`,
-    inline: true,
-  })(() => (
+  () => (
     <Dropzone
       onDrop={files => action('onDrop')(files)}
       render={({ canDrop, isOver }) => (
@@ -20,5 +16,11 @@ storiesOf('Dropzone', module).add(
         </div>
       )}
     />
-  )),
+  ),
+  {
+    info: {
+      text: `API: https://github.com/evenchange4/react-dnd-dropzone#api`,
+      inline: true,
+    },
+  },
 );

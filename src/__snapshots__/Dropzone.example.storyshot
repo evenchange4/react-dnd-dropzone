@@ -16,7 +16,7 @@ exports[`Storyshots Dropzone Basic 1`] = `
       onDrop={[Function]}
       render={[Function]}
     >
-      <DragDropContextProvider
+      <Component
         backend={[Function]}
       >
         <div>
@@ -37,7 +37,7 @@ exports[`Storyshots Dropzone Basic 1`] = `
             </pre>
           </div>
         </div>
-      </DragDropContextProvider>
+      </Component>
     </Target>
   </DropTarget(Target)>
 </ReactDndDropzone>
