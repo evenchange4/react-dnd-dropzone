@@ -1,7 +1,7 @@
 # react-dnd-dropzone
 
 > Dropzone with render props built with react-dnd.  
-> This is a simple component for the use case of [native files](http://react-dnd.github.io/react-dnd/examples-other-native-files.html).
+> This is a simple component for the use case of [native files](http://react-dnd.github.io/react-dnd/examples/other/native-files).
 
 [![Travis][build-badge]][build]
 [![Codecov Status][codecov-badge]][codecov]
