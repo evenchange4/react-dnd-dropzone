@@ -23,7 +23,7 @@ $ yarn add react-dnd-dropzone
 
 ## Demo
 
-* https://react-dnd-dropzone.netlify.com/
+- https://react-dnd-dropzone.netlify.com/
 
 ## Usage
 
@@ -45,20 +45,20 @@ import Dropzone from 'react-dnd-dropzone';
 
 ```js
 type Props = {
-  onDrop: (files: Array<Object>, monitor: any) => void,
+  onDrop: (files: Array<File>, monitor: any) => void,
   render: ({ canDrop: boolean, isOver: boolean }) => React.Element<any>,
   accepts?: Array<string>,
 };
 ```
 
-* `accepts` value: https://github.com/react-dnd/react-dnd/blob/master/packages/react-dnd-html5-backend/src/NativeTypes.js
+- `accepts` value: https://github.com/react-dnd/react-dnd/blob/master/packages/react-dnd-html5-backend/src/NativeTypes.js
 
 ## Development
 
 ### Requirements
 
-* node >= 9.4.0
-* yarn >= 1.3.2
+- node >= 11.4.0
+- yarn >= 1.12.3
 
 ```sh
 $ yarn install --pure-lockfile
@@ -79,9 +79,9 @@ $ yarn run build
 
 ## CONTRIBUTING
 
-* ⇄ Pull requests and ★ Stars are always welcome.
-* For bugs and feature requests, please create an issue.
-* Pull requests must be accompanied by passing automated tests.
+- ⇄ Pull requests and ★ Stars are always welcome.
+- For bugs and feature requests, please create an issue.
+- Pull requests must be accompanied by passing automated tests.
 
 ## [CHANGELOG](CHANGELOG.md)
 

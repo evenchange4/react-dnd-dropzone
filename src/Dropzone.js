@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import compose from 'recompose/compose';
+import { compose } from 'recompose';
 import {
   DropTarget,
   DragDropContext,
@@ -27,11 +27,13 @@ export const Target = ({
   </DragDropContextProvider>
 );
 
-export const Dropzone: React.ComponentType<{
-  onDrop: (files: Array<Object>, monitor: any) => void,
+export type Props = {
+  onDrop: (files: Array<File>, monitor: any) => void,
   render: ({ canDrop: boolean, isOver: boolean }) => React.Element<any>,
   accepts?: Array<string>,
-}> = compose(
+};
+
+export const Dropzone: React.ComponentType<Props> = compose(
   DragDropContext(HTML5Backend),
   DropTarget(
     ({ accepts }) => accepts || [NativeTypes.FILE],
