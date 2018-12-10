@@ -28,7 +28,7 @@ export const Target = ({
 );
 
 export type Props = {
-  onDrop: (files: Array<File>, monitor: any) => void,
+  onDrop: (files: Array<File>, monitor: any) => void | Promise<void>,
   render: ({ canDrop: boolean, isOver: boolean }) => React.Element<any>,
   accepts?: Array<string>,
 };
