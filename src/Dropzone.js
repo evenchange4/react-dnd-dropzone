@@ -33,7 +33,7 @@ export type Props = {
   accepts?: Array<string>,
 };
 
-export const Dropzone: React.ComponentType<Props> = compose(
+export const Dropzone: React.StatelessFunctionalComponent<Props> = compose(
   DragDropContext(HTML5Backend),
   DropTarget(
     ({ accepts }) => accepts || [NativeTypes.FILE],
