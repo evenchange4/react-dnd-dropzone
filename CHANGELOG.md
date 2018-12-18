@@ -1,5 +1,26 @@
 ## Change Log
 
+### v1.1.2 (2018/12/18 00:38 +00:00)
+
+- [6c24ef5](https://github.com/evenchange4/react-dnd-dropzone/commit/6c24ef561e917672ae96187e059680469aba9a65) 1.1.2 (@evenchange4)
+- [#48](https://github.com/evenchange4/react-dnd-dropzone/pull/48) chore(deps): update dependency flow-bin to v0.89.0 (#48) (@renovate[bot])
+- [#50](https://github.com/evenchange4/react-dnd-dropzone/pull/50) chore(deps): update storybook monorepo to v4.1.2 (#50) (@renovate[bot])
+- [#49](https://github.com/evenchange4/react-dnd-dropzone/pull/49) chore(deps): update dependency husky to v1.2.1 (#49) (@renovate[bot])
+- [#47](https://github.com/evenchange4/react-dnd-dropzone/pull/47) chore(deps): update storybook monorepo to v4.1.1 (#47) (@renovate[bot])
+- [#46](https://github.com/evenchange4/react-dnd-dropzone/pull/46) chore(deps): update storybook monorepo to v4.1.0 (#46) (@renovate[bot])
+- [#45](https://github.com/evenchange4/react-dnd-dropzone/pull/45) chore(deps): update dependency hsu-scripts to v0.2.3 (#45) (@renovate[bot])
+- [#44](https://github.com/evenchange4/react-dnd-dropzone/pull/44) chore(deps): update dependency flow-bin to v0.88.0 (#44) (@renovate[bot])
+- [#43](https://github.com/evenchange4/react-dnd-dropzone/pull/43) chore(deps): update dependency enzyme to v3.8.0 (#43) (@renovate[bot])
+- [#42](https://github.com/evenchange4/react-dnd-dropzone/pull/42) chore(deps): update dependency enzyme-adapter-react-16 to v1.7.1 (#42) (@renovate[bot])
+- [#41](https://github.com/evenchange4/react-dnd-dropzone/pull/41) chore(deps): update dependency hsu-scripts to v0.2.2 (#41) (@renovate[bot])
+
+### v1.1.1 (2018/12/10 04:05 +00:00)
+
+- [4241fe6](https://github.com/evenchange4/react-dnd-dropzone/commit/4241fe65c0eb74eccbfc799a5c762d3aef6d0459) 1.1.1 (@evenchange4)
+- [f64c098](https://github.com/evenchange4/react-dnd-dropzone/commit/f64c098a9f05e11c380f6276b63fb6f5d3e30321) fix(flow): update flow type (@evenchange4)
+- [28d9476](https://github.com/evenchange4/react-dnd-dropzone/commit/28d9476c926a6c9d42fa3f4dca03bce0f3ba1753) docs(README): update link (@evenchange4)
+- [38deaf1](https://github.com/evenchange4/react-dnd-dropzone/commit/38deaf16ab3f2193b46f2fb40eea07a750963ab4) docs(CHANGELOG): release 1.1.0 (@evenchange4)
+
 ### v1.1.0 (2018/12/10 02:55 +00:00)
 
 - [563b90d](https://github.com/evenchange4/react-dnd-dropzone/commit/563b90dbe50f89ece82706bc89a5f3bafaebfb2f) 1.1.0 (@evenchange4)
