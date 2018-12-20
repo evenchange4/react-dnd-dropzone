@@ -8,10 +8,6 @@
 [![npm package][npm-badge]][npm]
 [![npm downloads][npm-downloads]][npm]
 
-[![Dependency Status][dependency-badge]][dependency]
-[![devDependency Status][devdependency-badge]][devdependency]
-[![peerDependency Status][peerdependency-badge]][peerdependency]
-
 [![prettier][prettier-badge]][prettier]
 [![license][license-badge]][license]
 
@@ -57,7 +53,7 @@ type Props = {
 
 ### Requirements
 
-- node >= 11.4.0
+- node >= 11.5.0
 - yarn >= 1.12.3
 
 ```sh
@@ -73,6 +69,14 @@ $ yarn run eslint
 $ yarn run flow
 $ yarn run test:watch
 $ yarn run build
+```
+
+## Publish
+
+```bash
+$ npm version patch
+$ npm run changelog
+git commit & push
 ```
 
 ---
@@ -98,11 +102,5 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [npm-downloads]: https://img.shields.io/npm/dt/react-dnd-dropzone.svg?style=flat-square
 [license-badge]: https://img.shields.io/npm/l/react-dnd-dropzone.svg?style=flat-square
 [license]: http://michaelhsu.mit-license.org/
-[dependency-badge]: https://david-dm.org/evenchange4/react-dnd-dropzone.svg?style=flat-square
-[dependency]: https://david-dm.org/evenchange4/react-dnd-dropzone
-[devdependency-badge]: https://david-dm.org/evenchange4/react-dnd-dropzone/dev-status.svg?style=flat-square
-[devdependency]: https://david-dm.org/evenchange4/react-dnd-dropzone#info=devDependencies
-[peerdependency-badge]: https://david-dm.org/evenchange4/react-dnd-dropzone/peer-status.svg?style=flat-square
-[peerdependency]: https://david-dm.org/evenchange4/react-dnd-dropzone#info=peerDependencies
 [prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier
