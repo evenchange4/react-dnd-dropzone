@@ -7,9 +7,9 @@ import { DragDropContext } from 'react-dnd';
 import HTML5Backend from 'react-dnd-html5-backend';
 import Dropzone, { DropzoneWithoutContext } from './Dropzone';
 
-const HTML5DropContext = DragDropContext(HTML5Backend)(({ children }) => (
-  <div>{children}</div>
-));
+const HTML5DropContext: React.StatelessFunctionalComponent<Object> = DragDropContext(
+  HTML5Backend,
+)(({ children }) => <div>{children}</div>);
 
 storiesOf('Dropzone', module)
   .add(
