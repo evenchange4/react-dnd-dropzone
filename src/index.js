@@ -1,2 +1,2 @@
 // @flow
-export { default } from './Dropzone';
+export { default, DropzoneWithoutContext } from './Dropzone';

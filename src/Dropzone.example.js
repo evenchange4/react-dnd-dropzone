@@ -5,7 +5,7 @@ import { action } from '@storybook/addon-actions';
 
 import { DragDropContext } from 'react-dnd';
 import HTML5Backend from 'react-dnd-html5-backend';
-import Dropzone, { DropzoneWithoutContext } from './Dropzone';
+import Dropzone, { DropzoneWithoutContext } from '.';
 
 const HTML5DropContext: React.StatelessFunctionalComponent<Object> = DragDropContext(
   HTML5Backend,
