@@ -33,25 +33,29 @@ export type Props = {
   accepts?: Array<string>,
 };
 
+const DropzoneDropTarget = DropTarget(
+  ({ accepts }) => accepts || [NativeTypes.FILE],
+  {
+    drop(props, monitor) {
+      if (monitor) {
+        const { files } = monitor.getItem();
+        props.onDrop(files, monitor);
+      }
+    },
+  },
+  (connect, monitor) => ({
+    connectDropTarget: connect.dropTarget(),
+    isOver: monitor.isOver(),
+    canDrop: monitor.canDrop(),
+  }),
+);
+
 export const Dropzone: React.StatelessFunctionalComponent<Props> = compose(
   DragDropContext(HTML5Backend),
-  DropTarget(
-    ({ accepts }) => accepts || [NativeTypes.FILE],
-    {
-      drop(props, monitor) {
-        if (monitor) {
-          const { files } = monitor.getItem();
-          props.onDrop(files, monitor);
-        }
-      },
-    },
-    (connect, monitor) => ({
-      connectDropTarget: connect.dropTarget(),
-      isOver: monitor.isOver(),
-      canDrop: monitor.canDrop(),
-    }),
-  ),
+  DropzoneDropTarget,
 )(Target);
+
+export const DropzoneWithoutContext = DropzoneDropTarget(Target);
 
 /**
  * For react-storybook addon info
