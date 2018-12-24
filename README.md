@@ -37,7 +37,7 @@ import Dropzone from 'react-dnd-dropzone';
 />;
 ```
 
-With custom React-dnd context (PR [#56](https://github.com/evenchange4/react-dnd-dropzone/pull/56) by [@smallfx](https://github.com/smallfx)).
+### With custom React-dnd context (PR [#56](https://github.com/evenchange4/react-dnd-dropzone/pull/56) by [@smallfx](https://github.com/smallfx)).
 
 ```js
 import * as React from 'react';
