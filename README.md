@@ -37,10 +37,37 @@ import Dropzone from 'react-dnd-dropzone';
 />;
 ```
 
+With custom React-dnd context (PR [#56](https://github.com/evenchange4/react-dnd-dropzone/pull/56) by [@smallfx](https://github.com/smallfx)).
+
+```js
+import * as React from 'react';
+import { DragDropContext } from 'react-dnd';
+import HTML5Backend from 'react-dnd-html5-backend';
+import { DropTarget, Target } from 'react-dnd-dropzone';
+
+const HTML5DropContext = DragDropContext(HTML5Backend)(({ children }) => (
+  <div>{children}</div>
+));
+const Dropzone = DropTarget(Target);
+
+const App = () => (
+  <HTML5DropContext>
+    <Dropzone
+      onDrop={files => console.log(files)}
+      render={({ canDrop, isOver }) => (
+        <div>
+          <pre>{JSON.stringify({ canDrop, isOver }, null, 2)}</pre>
+        </div>
+      )}
+    />
+  </HTML5DropContext>
+);
+```
+
 ## API
 
 ```js
-type Props = {
+type DropzoneProps = {
   onDrop: (files: Array<File>, monitor: any) => void,
   render: ({ canDrop: boolean, isOver: boolean }) => React.Element<any>,
   accepts?: Array<string>,
