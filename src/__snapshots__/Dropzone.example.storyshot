@@ -43,7 +43,7 @@ exports[`Storyshots Dropzone Basic 1`] = `
 </ReactDndDropzone>
 `;
 
-exports[`Storyshots Dropzone NoContext 1`] = `
+exports[`Storyshots Dropzone Custom context 1`] = `
 <DragDropContext(Component)>
   <Component>
     <div>
