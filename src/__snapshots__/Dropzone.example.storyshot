@@ -42,3 +42,54 @@ exports[`Storyshots Dropzone Basic 1`] = `
   </DropTarget(Target)>
 </ReactDndDropzone>
 `;
+
+exports[`Storyshots Dropzone Custom context 1`] = `
+<DragDropContext(Component)>
+  <Component>
+    <div>
+      <DropTarget(Target)
+        onDrop={[Function]}
+        render={[Function]}
+      >
+        <Target
+          canDrop={false}
+          connectDropTarget={[Function]}
+          isOver={false}
+          onDrop={[Function]}
+          render={[Function]}
+        >
+          <Component
+            backend={[Function]}
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "border": "1px dashed black",
+                    "height": 200,
+                  }
+                }
+              >
+                (Without built-in 
+                <code>
+                  HTML5Backend
+                </code>
+                 context)
+                <br />
+                <br />
+                Drop file here!
+                <pre>
+                  {
+  "canDrop": false,
+  "isOver": false
+}
+                </pre>
+              </div>
+            </div>
+          </Component>
+        </Target>
+      </DropTarget(Target)>
+    </div>
+  </Component>
+</DragDropContext(Component)>
+`;

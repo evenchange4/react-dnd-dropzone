@@ -2,30 +2,10 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { compose } from 'recompose';
-import {
-  DropTarget,
-  DragDropContext,
-  DragDropContextProvider,
-} from 'react-dnd';
-import HTML5Backend, { NativeTypes } from 'react-dnd-html5-backend';
-
-export const Target = ({
-  canDrop,
-  isOver,
-  connectDropTarget,
-  render,
-}: {
-  // Note: from react-dnd hoc
-  canDrop: boolean,
-  isOver: boolean,
-  connectDropTarget: Function,
-  // Note: render props
-  render: ({ canDrop: boolean, isOver: boolean }) => React.Element<any>,
-}) => (
-  <DragDropContextProvider backend={HTML5Backend}>
-    {connectDropTarget(<div>{render({ canDrop, isOver })}</div>)}
-  </DragDropContextProvider>
-);
+import { DragDropContext } from 'react-dnd';
+import HTML5Backend from 'react-dnd-html5-backend';
+import Target from './Target';
+import DropTarget from './DropTarget';
 
 export type Props = {
   onDrop: (files: Array<File>, monitor: any) => void | Promise<void>,
@@ -33,29 +13,11 @@ export type Props = {
   accepts?: Array<string>,
 };
 
-export const Dropzone: React.StatelessFunctionalComponent<Props> = compose(
+const Dropzone: React.StatelessFunctionalComponent<Props> = compose(
   DragDropContext(HTML5Backend),
-  DropTarget(
-    ({ accepts }) => accepts || [NativeTypes.FILE],
-    {
-      drop(props, monitor) {
-        if (monitor) {
-          const { files } = monitor.getItem();
-          props.onDrop(files, monitor);
-        }
-      },
-    },
-    (connect, monitor) => ({
-      connectDropTarget: connect.dropTarget(),
-      isOver: monitor.isOver(),
-      canDrop: monitor.canDrop(),
-    }),
-  ),
+  DropTarget,
 )(Target);
 
-/**
- * For react-storybook addon info
- */
 Dropzone.displayName = 'ReactDndDropzone';
 Dropzone.propTypes = {
   onDrop: PropTypes.func.isRequired,
