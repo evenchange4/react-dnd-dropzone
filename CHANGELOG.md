@@ -1,7 +1,15 @@
-## Unreleased (2018-12-20)
+## Unreleased (2018-12-24)
 
+## <small>1.1.3 (2018-12-24)</small>
+
+- 1.1.3 ([50349d3](https://github.com/evenchange4/react-dnd-dropzone/commit/50349d3))
+- fix(storybook): addon.js -> addons.js ([ab2ac44](https://github.com/evenchange4/react-dnd-dropzone/commit/ab2ac44))
+- chore: ncu update & upgrade jest to use babel 7 & use node 11.5.0 & switch changelog tools ([3d51be8](https://github.com/evenchange4/react-dnd-dropzone/commit/3d51be8))
+- chore(deps): update dependency eslint to v5.11.0 (#57) ([61449d0](https://github.com/evenchange4/react-dnd-dropzone/commit/61449d0)), closes [#57](https://github.com/evenchange4/react-dnd-dropzone/issues/57)
 - chore(deps): update dependency husky to v1.3.0 (#51) ([f2c452c](https://github.com/evenchange4/react-dnd-dropzone/commit/f2c452c)), closes [#51](https://github.com/evenchange4/react-dnd-dropzone/issues/51)
 - chore(deps): update react monorepo to v16.7.0 (#53) ([12d3516](https://github.com/evenchange4/react-dnd-dropzone/commit/12d3516)), closes [#53](https://github.com/evenchange4/react-dnd-dropzone/issues/53)
+- chore(deps): update storybook monorepo to v4.1.3 (#55) ([86fc79c](https://github.com/evenchange4/react-dnd-dropzone/commit/86fc79c)), closes [#55](https://github.com/evenchange4/react-dnd-dropzone/issues/55) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203)
+- feat(context): add support for custom react-dnd context by exposing Target component and DropTarget ([cba5223](https://github.com/evenchange4/react-dnd-dropzone/commit/cba5223)), closes [#56](https://github.com/evenchange4/react-dnd-dropzone/issues/56) [#56](https://github.com/evenchange4/react-dnd-dropzone/issues/56)
 - docs(CHANGELOG): release 1.1.2 ([74a37b5](https://github.com/evenchange4/react-dnd-dropzone/commit/74a37b5))
 
 ## <small>1.1.2 (2018-12-18)</small>
