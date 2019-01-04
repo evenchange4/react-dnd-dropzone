@@ -80,7 +80,7 @@ type DropzoneProps = {
 
 ### Requirements
 
-- node >= 11.5.0
+- node >= 11.6.0
 - yarn >= 1.12.3
 
 ```sh
