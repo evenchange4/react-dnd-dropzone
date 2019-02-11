@@ -1,4 +1,29 @@
-## Unreleased (2018-12-24)
+## Unreleased (2019-02-11)
+
+## <small>1.1.4 (2019-02-11)</small>
+
+- 1.1.4 ([f197182](https://github.com/evenchange4/react-dnd-dropzone/commit/f197182))
+- chore(deps): ncu update ([ab5677a](https://github.com/evenchange4/react-dnd-dropzone/commit/ab5677a))
+- chore(deps): update dependency enzyme-adapter-react-16 to v1.8.0 (#77) ([a111400](https://github.com/evenchange4/react-dnd-dropzone/commit/a111400)), closes [#77](https://github.com/evenchange4/react-dnd-dropzone/issues/77)
+- chore(deps): update dependency eslint to v5.11.1 (#60) ([0b26812](https://github.com/evenchange4/react-dnd-dropzone/commit/0b26812)), closes [#60](https://github.com/evenchange4/react-dnd-dropzone/issues/60)
+- chore(deps): update dependency eslint to v5.12.0 (#64) ([21e698c](https://github.com/evenchange4/react-dnd-dropzone/commit/21e698c)), closes [#64](https://github.com/evenchange4/react-dnd-dropzone/issues/64)
+- chore(deps): update dependency eslint to v5.12.1 (#72) ([0658b5b](https://github.com/evenchange4/react-dnd-dropzone/commit/0658b5b)), closes [#72](https://github.com/evenchange4/react-dnd-dropzone/issues/72)
+- chore(deps): update dependency flow-bin to v0.90.0 (#68) ([fabfe1d](https://github.com/evenchange4/react-dnd-dropzone/commit/fabfe1d)), closes [#68](https://github.com/evenchange4/react-dnd-dropzone/issues/68)
+- chore(deps): update dependency flow-bin to v0.91.0 (#70) ([da80c59](https://github.com/evenchange4/react-dnd-dropzone/commit/da80c59)), closes [#70](https://github.com/evenchange4/react-dnd-dropzone/issues/70)
+- chore(deps): update dependency hsu-scripts to v1 (#62) ([ed6f4fe](https://github.com/evenchange4/react-dnd-dropzone/commit/ed6f4fe)), closes [#62](https://github.com/evenchange4/react-dnd-dropzone/issues/62)
+- chore(deps): update dependency hsu-scripts to v1.0.2 (#65) ([f6de7eb](https://github.com/evenchange4/react-dnd-dropzone/commit/f6de7eb)), closes [#65](https://github.com/evenchange4/react-dnd-dropzone/issues/65)
+- chore(deps): update dependency jest to v24.0.0 (#78) ([dca531c](https://github.com/evenchange4/react-dnd-dropzone/commit/dca531c)), closes [#78](https://github.com/evenchange4/react-dnd-dropzone/issues/78)
+- chore(deps): update dependency jest to v24.0.0-alpha.10 (#66) ([bd8fc4d](https://github.com/evenchange4/react-dnd-dropzone/commit/bd8fc4d)), closes [#66](https://github.com/evenchange4/react-dnd-dropzone/issues/66)
+- chore(deps): update dependency jest to v24.0.0-alpha.11 (#67) ([d8956aa](https://github.com/evenchange4/react-dnd-dropzone/commit/d8956aa)), closes [#67](https://github.com/evenchange4/react-dnd-dropzone/issues/67)
+- chore(deps): update dependency jest to v24.0.0-alpha.12 (#69) ([ff6458f](https://github.com/evenchange4/react-dnd-dropzone/commit/ff6458f)), closes [#69](https://github.com/evenchange4/react-dnd-dropzone/issues/69)
+- chore(deps): update dependency jest to v24.0.0-alpha.13 (#75) ([840282f](https://github.com/evenchange4/react-dnd-dropzone/commit/840282f)), closes [#75](https://github.com/evenchange4/react-dnd-dropzone/issues/75)
+- chore(deps): update dependency jest to v24.0.0-alpha.15 (#76) ([978191f](https://github.com/evenchange4/react-dnd-dropzone/commit/978191f)), closes [#76](https://github.com/evenchange4/react-dnd-dropzone/issues/76)
+- chore(deps): update dependency lint-staged to v8.1.1 (#79) ([84c874b](https://github.com/evenchange4/react-dnd-dropzone/commit/84c874b)), closes [#79](https://github.com/evenchange4/react-dnd-dropzone/issues/79)
+- chore(deps): update dependency prettier to v1.16.0 (#73) ([257bb5c](https://github.com/evenchange4/react-dnd-dropzone/commit/257bb5c)), closes [#73](https://github.com/evenchange4/react-dnd-dropzone/issues/73)
+- chore(deps): update dependency prettier to v1.16.1 (#74) ([85c6130](https://github.com/evenchange4/react-dnd-dropzone/commit/85c6130)), closes [#74](https://github.com/evenchange4/react-dnd-dropzone/issues/74)
+- chore(deps): update dependency prettier to v1.16.2 (#80) ([8e710ff](https://github.com/evenchange4/react-dnd-dropzone/commit/8e710ff)), closes [#80](https://github.com/evenchange4/react-dnd-dropzone/issues/80)
+- chore(deps): update storybook monorepo to v4.1.4 (#58) ([977b64c](https://github.com/evenchange4/react-dnd-dropzone/commit/977b64c)), closes [#58](https://github.com/evenchange4/react-dnd-dropzone/issues/58) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203) [#8203](https://github.com/evenchange4/react-dnd-dropzone/issues/8203)
+- docs(CHANGELOG): release 1.1.3 ([e03f5bc](https://github.com/evenchange4/react-dnd-dropzone/commit/e03f5bc))
 
 ## <small>1.1.3 (2018-12-24)</small>
 
