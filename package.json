@@ -25,8 +25,8 @@
   },
   "dependencies": {
     "prop-types": "^15.7.1",
-    "react-dnd": "^7.0.2",
-    "react-dnd-html5-backend": "^7.0.2",
+    "react-dnd": "^16.0.0",
+    "react-dnd-html5-backend": "^16.0.0",
     "recompose": "^0.30.0"
   },
   "devDependencies": {
